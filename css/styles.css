@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .sudoku {
+  border: 2px solid #000;
+  border-collapse: collapse;
+}
+
+.container .sudoku td {
+  border: 1px solid #000;
+}
+
+.container .sudoku td:nth-child(3n) {
+  border-right: 3px solid #000;
+}
+
+.container .sudoku tr:nth-child(3n) td {
+  border-bottom: 3px solid #000;
+}
+
+.container .finish {
+  padding: .5rem 1rem;
+  border-radius: 25%;
+  margin-top: 1rem;
+  color: green;
+}
+
+.container input {
+  height: 4rem;
+  width: 4rem;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+.container.sequence {
+  margin-top: 2rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container.sequence .ready {
+  margin-right: 1rem;
+}
+
+.box {
+  padding: .5rem 1rem;
+  margin: 0.5rem;
+  border: 1px solid #000;
+}
+
+.info {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 36.875em;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.statistics {
+  margin-left: 1rem;
+}
+
+.slidecontainer {
+  position: absolute;
+  width: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  pointer-events: none;
+}
+
+.slidecontainer .slider {
+  pointer-events: stroke;
+  width: 200px;
+}
+
+.slidecontainer .speedrange {
+  height: 2rem;
+}
+/*# sourceMappingURL=styles.css.map */

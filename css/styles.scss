@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .sudoku {
+        border: 2px solid #000;
+        border-collapse: collapse;
+
+        td {
+            border: 1px solid #000;
+
+            &:nth-child(3n) {
+                border-right: 3px solid #000;
+            }
+        }
+
+        tr:nth-child(3n) td {
+            border-bottom: 3px solid #000;
+        }
+
+    }
+
+    .finish {
+        padding: .5rem 1rem;
+        border-radius: 25%;
+        margin-top: 1rem;
+        color: green;
+    }
+
+    input {
+        height: 4rem;
+        width: 4rem;
+        font-size: 2rem;
+        border: none;
+        outline: none;
+        text-align: center;
+    }
+}
+
+.container.sequence {
+    margin-top: 2rem;
+    flex-direction: row;
+
+    .ready {
+        margin-right: 1rem;
+    }
+}
+
+.box {
+    padding: .5rem 1rem;
+    margin: 0.5rem;
+    border: 1px solid #000;
+}
+
+.info {
+    position: relative;
+    display: flex;
+    width: 36.875em;
+    justify-content: flex-end;
+}
+
+.statistics {
+    margin-left: 1rem;
+}
+
+.slidecontainer {
+    position: absolute;
+    width: 100%;
+    justify-content: flex-start;
+    pointer-events: none;
+
+    .slider {
+        pointer-events: stroke;
+        width: 200px;
+    }
+
+    .speedrange {
+        height: 2rem;
+    }
+}
