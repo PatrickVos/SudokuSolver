@@ -32,7 +32,7 @@ many generations have passed. This will start to increment each time the "start"
 
 # Technical details
 
-THe genetic algorithm will try 100 different randomly created sequences of numbers (including their place). 
+The genetic algorithm will try 100 different randomly created sequences of numbers (including their place). 
 You could referred to these sequences as "chromosomes" (like in DNA).
 To keep track of these sequences, a (fitness) score is saved after each run. For each of them, individually.
 So when there is an evaluation, only the sequences that meet the required minimum score will be used later on.
