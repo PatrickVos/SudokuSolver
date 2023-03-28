@@ -44,3 +44,28 @@ the next generation. The recombination happens at the piece of the sequence wher
 This first part will be combined with an other randomly picked sequence. Starting at the point where it left off in the first sequence.
 With a randomly modification (read mutation) of 15%, the new sequence will be assured to become a more distinct one.
 Eventually, this new recombined sequence will be a part of a new group of 100 new candidates for teh next generation.
+
+
+# Sources
+
+Some sources I consulted are:
+
+https://www.tothenew.com/blog/javascript-splice-vs-slice/ 
+https://www.samanthaming.com/tidbits/35-es6-way-to-clone-an-array/
+https://stackoverflow.com/questions/4049847/initializing-an-array-with-a-single-value
+https://dev.to/samanthaming/how-to-deep-clone-an-array-in-javascript-3cig
+https://stackoverflow.com/questions/14226803/wait-5-seconds-before-executing-next-line
+https://zellwk.com/blog/async-await-in-loops/
+https://stackoverflow.com/questions/49432579/await-is-only-valid-in-async-function
+
+inspired by: 
+
+- previous project: "Knapsack problem".
+
+- Flappy Learning
+  https://github.com/xviniette/FlappyLearning
+
+- 9.1: Genetic Algorithm: Introduction - The Nature of Code
+  https://www.youtube.com/watch?v=9zfeTw-uFCw&list=PLRqwX-V7Uu6bJM3VgzjNV5YxVxUwzALHV
+
+
