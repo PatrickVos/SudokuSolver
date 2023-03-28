@@ -8,25 +8,31 @@ But this algorithm is slightly changed, in order to create appropriate solutions
 # How it's build up
 
 First of all, you start with a field with predefined values in the sudoku (as a starting point). 
+
 ![unset Sudoku](https://user-images.githubusercontent.com/8873367/228329509-a526ab26-ddf5-4226-98b9-55145faaa95e.png)
 
 These values can be mofified to you own needs (as long as you create a valid sudoku).
 When you are sure about the values, you can confirm the values with the "Done" button (otherwise you'll need to refresh the page and start over):
+
 ![done button](https://user-images.githubusercontent.com/8873367/228330353-b6b8cf9c-83e4-44c7-8844-c478fc90e7f0.png)
 
 Only when the "Done" button is pressed, the start button will be enabled:
+
 ![start button](https://user-images.githubusercontent.com/8873367/228330114-00ab3e93-e00e-497e-b30d-945befa027f0.png)
 
 By pressing this button, you let the computer start playing the game! ...But wait, there is more!
 With values besides the "Start" button you can see what values the computer will try to use. Highlighted in yellow:
+
 ![highlighted values](https://user-images.githubusercontent.com/8873367/228330783-b92b3a43-83b0-45d6-975f-7424bb4b10db.png)
 
 Above the "Start" button, you see a slider where you can adjust the speed of the computer. By default the value is set to "990".
 What means is the computer will pause (read "think") for 990 milliseconds between every move.
+
 ![slider option](https://user-images.githubusercontent.com/8873367/228331089-ec823ae2-9cbd-4bf4-b7d1-253cf990db6e.png)
 
 After the computer played the game, the minimum score and the maximum score will be set or updated. The generation counter will show how
 many generations have passed. This will start to increment each time the "start" button is pressed:
+
 ![log info](https://user-images.githubusercontent.com/8873367/228332484-67c5831b-d279-4085-82bc-c4c32a26d805.png)
 
 
