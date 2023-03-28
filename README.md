@@ -51,12 +51,19 @@ Eventually, this new recombined sequence will be a part of a new group of 100 ne
 Some sources I consulted are:
 
 https://www.tothenew.com/blog/javascript-splice-vs-slice/ 
+
 https://www.samanthaming.com/tidbits/35-es6-way-to-clone-an-array/
+
 https://stackoverflow.com/questions/4049847/initializing-an-array-with-a-single-value
+
 https://dev.to/samanthaming/how-to-deep-clone-an-array-in-javascript-3cig
+
 https://stackoverflow.com/questions/14226803/wait-5-seconds-before-executing-next-line
+
 https://zellwk.com/blog/async-await-in-loops/
+
 https://stackoverflow.com/questions/49432579/await-is-only-valid-in-async-function
+
 
 inspired by: 
 
