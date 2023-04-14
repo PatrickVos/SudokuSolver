@@ -88,9 +88,11 @@ class Population {
       // A counter in order to ensure that every solution has been processed.
       let solutionCounter = 0;
 
-      // itereer over alle solutions opnieuw en opnieuw totdat er niet meer toegevoegd kan worden.
+      // Iterate through all solutions, again and again, until no more new possible solutions can be added to the nextpool.
+      // The limit is indicated by the variable 'amountPopulation'. 
       while (nextpool.length < amountPopulation) {
-        // pak een willeukeurige chromosome.
+
+        // Pick a random chromosome.
         const randomIndex = Math.floor(Math.random() * solutions.length);
 
         // Pick a solution from all the solutions
